@@ -1,5 +1,12 @@
 # Reproducer for a Log Level configuration issue in Keycloak 26.1.x
 
+## Issue
+
+Configuring log levels for package names with underscores
+https://github.com/keycloak/keycloak/issues/37772
+
+## Reproducing the issue
+
 1. Build the artifact
 ```
 mvn package -Dkeycloak.version=26.1.0
